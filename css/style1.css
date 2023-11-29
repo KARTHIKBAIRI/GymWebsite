@@ -1,0 +1,96 @@
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("../images/image1.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left {
+  display: inline-block;
+  /* border: 3px solid rgb(191, 203, 205); */
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+.left img {
+  width: 100px;
+}
+.left div {
+  font-size: 16px;
+  line-height: 13px;
+  text-align: center;
+}
+.mid {
+  display: block;
+  width: 53%;
+  margin: 20px auto;
+  /* border: 2px solid yellow; */
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: gray;
+}
+.right {
+  /* border: 2px solid orange; */
+  position: absolute;
+  right: 34px;
+  top: 28px;
+}
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover {
+  background-color: rgb(71, 65, 65);
+  transition: all 1s ease-in;
+  transform: rotate(360deg);
+}
+.container {
+  border: 2px solid #e4dada;
+  margin: 85px 59px;
+  padding: 46px 47px;
+  width: 28%;
+  border-radius: 10px;
+}
+.form_group input {
+  text-align: center;
+  display: block;
+  width: 296px;
+  padding: 6px;
+  border: 2px solid black;
+  margin: 4px auto;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container h2 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 72%;
+  margin: auto;
+}
