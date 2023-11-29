@@ -14,4 +14,9 @@ tail <path to id_sa.pub> #add this key to your github account
 git remote add origin <ssh url.git>
 git push origin master
 
+to add extra file to it
+###
+git add .
+git commit -m "addedcommandssheet"
+git push origin master
 
