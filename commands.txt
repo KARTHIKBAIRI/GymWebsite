@@ -1,5 +1,5 @@
 
-#comments
+#comments to create git repository
 touch .gitignore
 git config --global user.name karthik
 git config --global user.email "karthikbairi37@gmail.com"
